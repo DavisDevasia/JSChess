@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<title>Davy Chess</title>
+		<style>
+td {width:50px;height:50px;min-width:50px;min-height:50px;margin:0;padding:0;background-color:green;cursor:pointer;}
+td.wbox{background-color: #bee6e0;}
+td.bbox{background-color: #6fa9ca;}
+td.highlight{background-color: #80ec96;}
+td.whitechallenge{background-color: #e126ff;}
+td.blackchallenge{background-color: #2f0935;}
+
+td:hover{background-color: #f4f52d;}
+
+td.BL, td.WH{background-image:url('icons.png');background-size:300px;}
+td.BL{background-position-y:50px!important;}
+td.WH{background-position-y:0px!important;}
+
+td.K{background-position-x:0px;}
+td.Q{background-position-x:-50px;}
+td.B{background-position-x:-100px;}
+td.N{background-position-x:-150px;}
+td.R{background-position-x:-200px;}
+td.P{background-position-x:-250px;}
+		</style>
+	</head>
+	<body style="margin:0;padding:0;text-align:center;">
+		<h1>Chess Davy</h1>
+		<table align="center">
+			<tr>
+				<td id="h1" class="wbox bpiece rook"></td>
+				<td id="h2" class="bbox bpiece knight"></td>
+				<td id="h3" class="wbox bpiece bishop"></td>
+				<td id="h4" class="bbox bpiece queen"></td>
+				
+				<td id="h5" class="wbox bpiece king"></td>
+				<td id="h6" class="bbox bpiece bishop"></td>
+				<td id="h7" class="wbox bpiece knight"></td>
+				<td id="h8" class="bbox bpiece rook"></td>
+			</tr>
+			<tr>
+				<td id="g1" class="bbox bpiece pawn"></td>
+				<td id="g2" class="wbox bpiece pawn"></td>
+				<td id="g3" class="bbox bpiece pawn"></td>
+				<td id="g4" class="wbox bpiece pawn"></td>
+				
+				<td id="g5" class="bbox bpiece pawn"></td>
+				<td id="g6" class="wbox bpiece pawn"></td>
+				<td id="g7" class="bbox bpiece pawn"></td>
+				<td id="g8" class="wbox bpiece pawn"></td>
+			</tr>
+			<tr>
+				<td id="f1" class="wbox"></td>
+				<td id="f2" class="bbox"></td>
+				<td id="f3" class="wbox"></td>
+				<td id="f4" class="bbox"></td>
+				
+				<td id="f5" class="wbox"></td>
+				<td id="f6" class="bbox"></td>
+				<td id="f7" class="wbox"></td>
+				<td id="f8" class="bbox"></td>
+			</tr>
+			<tr>
+				<td id="e1" class="bbox"></td>
+				<td id="e2" class="wbox"></td>
+				<td id="e3" class="bbox"></td>
+				<td id="e4" class="wbox"></td>
+				
+				<td id="e5" class="bbox"></td>
+				<td id="e6" class="wbox"></td>
+				<td id="e7" class="bbox"></td>
+				<td id="e8" class="wbox"></td>
+			</tr>
+			<tr>
+				<td id="d1" class="wbox"></td>
+				<td id="d2" class="bbox"></td>
+				<td id="d3" class="wbox"></td>
+				<td id="d4" class="bbox"></td>
+				
+				<td id="d5" class="wbox"></td>
+				<td id="d6" class="bbox"></td>
+				<td id="d7" class="wbox"></td>
+				<td id="d8" class="bbox"></td>
+			</tr>
+			<tr>
+				<td id="c1" class="bbox"></td>
+				<td id="c2" class="wbox"></td>
+				<td id="c3" class="bbox"></td>
+				<td id="c4" class="wbox"></td>
+				
+				<td id="c5" class="bbox"></td>
+				<td id="c6" class="wbox"></td>
+				<td id="c7" class="bbox"></td>
+				<td id="c8" class="wbox"></td>
+			</tr>
+			<tr>
+				<td id="b1" class="wbox wpiece pawn"></td>
+				<td id="b2" class="bbox wpiece pawn"></td>
+				<td id="b3" class="wbox wpiece pawn"></td>
+				<td id="b4" class="bbox wpiece pawn"></td>
+				
+				<td id="b5" class="wbox wpiece pawn"></td>
+				<td id="b6" class="bbox wpiece pawn"></td>
+				<td id="b7" class="wbox wpiece pawn"></td>
+				<td id="b8" class="bbox wpiece pawn"></td>
+			</tr>
+			<tr>
+				<td id="a1" class="bbox wpiece rook"></td>
+				<td id="a2" class="wbox wpiece knight"></td>
+				<td id="a3" class="bbox wpiece bishop"></td>
+				<td id="a4" class="wbox wpiece queen"></td>
+				
+				<td id="a5" class="bbox wpiece king"></td>
+				<td id="a6" class="wbox wpiece bishop"></td>
+				<td id="a7" class="bbox wpiece knight"></td>
+				<td id="a8" class="wbox wpiece rook"></td>
+			</tr>
+		</table>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
